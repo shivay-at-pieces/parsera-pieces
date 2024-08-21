@@ -2,7 +2,7 @@
 
 Fork of Parsera - Lightweight Python library for scraping websites with LLMs, specifically using Pieces QGPT endpoint.  
 
-## Why Parsera?
+## Why Parsera with Pieces?
 Because it's simple and lightweight, with minimal token use which boosts speed and reduces expenses.
 
 ## Installation
