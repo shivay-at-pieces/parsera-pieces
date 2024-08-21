@@ -2,9 +2,9 @@ import asyncio
 
 
 
-from parsera.engine.model import PiecesModel
-from parsera.engine.simple_extractor import TabularExtractor
-from parsera.page import fetch_page_content
+from parsera_pieces.engine.model import PiecesModel
+from parsera_pieces.engine.simple_extractor import TabularExtractor
+from parsera_pieces.page import fetch_page_content
 
 
 class Parsera:
