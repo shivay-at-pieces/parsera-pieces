@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "parsera-pieces"
+version = "0.0.1"
+description = "Fork of the original Parsera Lightweight library for scraping web-sites with Pieces QGPT LLM"
+authors = ["Shivay at Pieces <shivay@ieces.app>"]
+license = "GPL-2.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.2.6"
+langchain-openai = "^0.1.8"
+playwright = "^1.44.0"
+playwright-stealth = "^1.0.6"
+markdownify = "^0.12.1"
+pieces-copilot-sdk = "^0.5.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+pylint = "^2.17.4"
+pytest = "^8.2.2"
+jupyterlab = "^4.2.4"
+poetry = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
