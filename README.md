@@ -16,7 +16,7 @@ playwright install
 
 You can do this from python with:
 ```python
-from parsera.main import Parsera
+from parsera_pieces import Parsera
 
 async def main():
        url = "https://code.pieces.app/blog"
