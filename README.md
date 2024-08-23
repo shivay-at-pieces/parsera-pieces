@@ -1,5 +1,7 @@
 # 📦 Parsera with Pieces
 
+https://github.com/user-attachments/assets/ecbddc40-cf16-4091-8f8f-122892333aac
+
 Fork of Parsera - Lightweight Python library for scraping websites with LLMs, specifically using Pieces QGPT endpoint.  
 
 ## Why Parsera with Pieces?
@@ -34,3 +36,6 @@ if __name__ == "__main__":
        import asyncio
        asyncio.run(main())
 ```
+
+
+
